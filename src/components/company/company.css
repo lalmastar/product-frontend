@@ -1,0 +1,115 @@
+.company-header-container{
+    display: flex;
+    align-items: center;
+}
+.company-header-left{
+    width: 700px;
+    height: 200px;
+    margin: 50px 0 0 100px;
+}
+.company-header{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-left: -50px;
+}
+.company-header-logo{
+    width: 40px;
+}
+.company-header-h1{
+    margin-bottom: 8px;
+}
+.company-description{
+    height: 300px;
+}
+.company-description > p {
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+}
+
+/* prodcuts start */
+.products{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgb(192, 222, 222);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.products > .related-products{
+   margin-left: 200px;
+}
+/* prodcuts end */
+
+
+.company-header-right{
+    margin: 40px 10px 50px 100px;
+}
+.company-header-right-h1>h1{
+    font-size: 20px;
+}
+.company-header-logo{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.company-header-logo > svg{
+    width: 40px;
+    margin-left: 50px;
+}
+.company-header-right-flex{
+    width: 200px;
+    display: flex;
+    padding-top: 15px;
+    /* align-items: center; */
+}
+.count{
+    font-size: 80px;
+    /* margin-top: 25px; */
+}
+.company-header-bottom{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+/* .table{
+    width: 800px;
+} */
+.client-form{
+   padding-right: 70px;
+   padding-left: 50px;
+}
+.button-31 {
+    background-color: #011627;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 0 150px;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+  }
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .75;
+  }

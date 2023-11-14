@@ -1,0 +1,25 @@
+
+.collection-container{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 0 30px 0px ;
+    width: 400px;
+    height: 120px;
+    background-color: #FDFFFC;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 10px;
+}
+.panel-content{
+    margin-top: 50px;
+    width: 400px;
+}
+#customers tr td a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+  }
+  #customers tr td svg{
+    width: 20px;
+    margin-right: 20px;
+  }

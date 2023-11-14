@@ -1,0 +1,72 @@
+.hometable-container{
+    width: 800px;
+    margin: auto;
+    margin-top: -150px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hometable-container-top{
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+}
+.hometable-container-bottom{
+    color: #797D86;
+}
+.hometable-container-bottom-header{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-bar{
+    height: 1.5px;
+    background-color: #939495;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hometable-container-bottom-product{
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin-right: 10px;
+    padding-top: 8px;
+}
+img{
+    width: 30px;
+}
+.product-bar{
+    height: 0.5px;
+    background-color: #939495;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-name{
+    color: #16A6BA;
+}
+.total-companies{
+    color: #797D86;
+    font-weight: 900;
+    padding-top: 8px;
+}
+a{
+    text-decoration: none;
+}
+.linkedin > a > svg{
+    width: 30px;
+}
+.background{
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.companies-header-name{
+    padding: 10px;
+    font-size: 30px;
+    text-align: start;
+}
